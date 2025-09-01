@@ -1,6 +1,6 @@
 // FUNCTION IMPLEMENTATION :
 function xyz() {
-    //...
+  //...
 }
 
 // TEST CASE :
