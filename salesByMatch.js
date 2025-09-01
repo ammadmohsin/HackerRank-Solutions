@@ -11,8 +11,6 @@ function sockMerchant(n, ar) {
       sockCount[color] = 1;
     }
   }
-
-    
   for (let color in sockCount) {
     pairs += Math.floor(sockCount[color] / 2);
   }
@@ -22,8 +20,8 @@ function sockMerchant(n, ar) {
 
 // TEST CASE :
 function main() {
-    console.log("Sales by Match");
-    let result = sockMerchant(9, [10, 20, 20, 10, 10, 30, 50, 10, 20]);
+  console.log("Sales by Match");
+  let result = sockMerchant(9, [10, 20, 20, 10, 10, 30, 50, 10, 20]);
 }
 
 // EXECUTE TEST CASE :

@@ -1,17 +1,15 @@
 // FUNCTION IMPLEMENTATION :
 function bigSorting(unsorted) {
+  // .sort() gets a callback.
+  // if its :
+  // ( -1 : puts a before b )  (-1 means a smaller than b    )
+  // ( 0 : if its equal     )  ( 0 means a and b are equal    )
+  // ( 1 : puts a after b   )  ( 1 means a greater than b  )
 
-    // sort gets a callback (
-    // if its : 
-    // ( -1 : puts a before b )  (-1 means b greater than b     )
-    // ( 0 : if its equal     )  ( 0 means a and b are equal    )
-    // ( 1 : puts a after b   )  ( 1 means a is greater than b  )
-    
-    unsorted.sort((a, b) => {
+  unsorted.sort((a, b) => {
     if (a.length != b.length) {
       return a.length - b.length;
     }
-
     return a.localeCompare(b);
   });
 
