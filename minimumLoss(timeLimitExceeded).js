@@ -1,15 +1,17 @@
 // FUNCTION IMPLEMENTATION :
 function minimumLoss(price) {
-  let loss = new Array();
+  let min = Infinity;
   for (let i = 0; i < price.length - 1; i++) {
     for (let j = i + 1; j < price.length; j++) {
-      let diff = price[i] - price[j];
-      if (diff > 0) {
-        loss.push(diff);
+      if (price[i] > price[j]) {
+        let diff = price[i] - price[j];
+        if (min > diff) {
+          min = diff;
+        }
       }
     }
   }
-  return Math.min(...loss);
+  return min;
 }
 
 // TEST CASE :
