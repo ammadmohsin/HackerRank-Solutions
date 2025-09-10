@@ -1,5 +1,6 @@
 // FUNCTION IMPLEMENTATION :
 function playingWithNumbers(arr, queries) {
+  // time limit on few cases
   let final = new Array();
   let n = arr.length * queries.length;
   let result = 0;
