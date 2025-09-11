@@ -1,5 +1,5 @@
 // FUNCTION IMPLEMENTATION :
-function insertionSort(arr) {
+function insertionSort(arr) { // time out limit on few cases.
   let n = arr.length;
   let shifts = 0;
   for (let i = 1; i < n; i++) {

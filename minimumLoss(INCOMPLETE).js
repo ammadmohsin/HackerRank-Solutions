@@ -1,5 +1,5 @@
 // FUNCTION IMPLEMENTATION :
-function minimumLoss(price) {
+function minimumLoss(price) { // Time Limit on few Cases.
   let min = Infinity;
   for (let i = 0; i < price.length - 1; i++) {
     for (let j = i + 1; j < price.length; j++) {

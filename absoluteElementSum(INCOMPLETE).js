@@ -1,6 +1,6 @@
 // FUNCTION IMPLEMENTATION :
 function playingWithNumbers(arr, queries) {
-  // time limit on few cases
+  // time limit on few cases :
   let final = new Array();
   let n = arr.length * queries.length;
   let result = 0;
@@ -17,6 +17,7 @@ function playingWithNumbers(arr, queries) {
   // }
   // return final;
 
+  // Still time limit :
   for (let i = 0; i < n; i++) {
     result += Math.abs(arr[k] + key);
     console.log(result);
