@@ -9,7 +9,7 @@ function sumXor(n) {
   //   }
   //   return count;
 
-  // WAY 02 : (correct way by using logic of XOR and OR property)
+  // WAY 02 : (correct way by using logic of XOR and OR property) (if binary = 0; that means xor and or are equal.)
   if (n === 0) return 1;
   let bin = n.toString(2); // binary string
   let zeros = 0;
