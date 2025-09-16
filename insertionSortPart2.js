@@ -8,7 +8,6 @@ function insertionSort2(n, arr) {
             arr[j + 1] = arr[j];
             j--;
         }
-
         arr[j + 1] = key;
         console.log(arr.join(" "));
     }

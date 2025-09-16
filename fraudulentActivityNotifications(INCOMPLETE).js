@@ -1,5 +1,6 @@
 // FUNCTION IMPLEMENTATION :
 function activityNotifications(expenditure, d) {
+  // Time Limit on 5 out 0f 7 cases :
   let n = expenditure.length;
   let notification = 0;
   for (let i = d; i < n; i++) {
