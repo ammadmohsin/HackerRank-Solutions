@@ -17,7 +17,6 @@ function superDigit(n, k) {
   // return str;
 
   // WAY 02 : (works fine)
-  // Step 1: sum of digits of n
   let sum = 0n;
   for (let digit of n) {
     sum += BigInt(digit);
@@ -32,7 +31,6 @@ function superDigit(n, k) {
     }
     sum = temp;
   }
-
   return sum.toString();
 }
 
