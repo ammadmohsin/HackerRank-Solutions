@@ -13,7 +13,7 @@ function insertionSort(n, arr) {
   }
   console.log(arr.join(" "));
   //  NOTE : If this code doesn't work,
-  //  simply copy the whole code of Insertion Sort 2 from hacker Rank and paste it.
+  //  simply copy the whole code of Insertion Sort 2(after puuting this function in Insertion Sort 2 too) from hacker Rank and paste it.
 }
 
 // TEST CASE :

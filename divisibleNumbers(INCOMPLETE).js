@@ -1,5 +1,6 @@
 // FUNCTION IMPLEMENTATION :
-function divisibleNumbers(n) { //Run time error.. too much memory consumption
+function divisibleNumbers(n) {
+  //Run time error.. too much memory consumption
   let i = 1;
   while (true) {
     if (i % n == 0) {

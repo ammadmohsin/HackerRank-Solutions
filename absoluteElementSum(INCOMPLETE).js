@@ -22,7 +22,7 @@ function playingWithNumbers(arr, queries) {
     result += Math.abs(arr[k] + key);
     console.log(result);
     k++;
-
+    
     if ((i + 1) % arr.length == 0) {
       j++;
       k = 0;

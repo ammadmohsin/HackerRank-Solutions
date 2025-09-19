@@ -1,5 +1,5 @@
 // FUNCTION IMPLEMENTATION :
-function andProduct(a, b) { // Wrong answer on 4 out of 21 cases.
+function andProduct(a, b) { // Wrong answer on 4 out of 21 cases.(due to higher values or bits).
     let result = a;
     for (let i = a + 1; i <= b; i++){
         result &= i;
